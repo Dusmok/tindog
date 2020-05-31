@@ -1,0 +1,196 @@
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  position: relative;
+
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/*              Navbar                */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "ubuntu" ;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+
+/* Buttons */
+
+.dwnbtn{
+margin: 5% 3% 5% 0;
+}
+
+
+/* Title image */
+
+.titleimg{
+  position: absolute;
+  z-index: 0;
+  width: 60%;
+  transform: rotate(26deg);
+
+}
+
+@media (max-width:990px) {
+  .titleimg{
+    position: static;
+    transform: rotate(0deg);
+  }
+.titlediv{
+  text-align: center;
+}
+}
+
+/* Features */
+
+#features{
+position: relative;
+z-index: 1;
+  background-color: #fff;
+padding: 3% 5%;
+  text-align: center;
+}
+
+.feath3{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.featico{
+  color: #ef8172;
+}
+
+.featico:hover{
+  color: #ff4c68;
+}
+
+.featp{
+  color: #8f8f8f;
+}
+
+.featdiv{
+    padding: 8% 8% ;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testimg{
+  width: 12%;
+  border-radius: 50%;
+  margin:5%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.pressimg {
+  margin: 0 5%;
+  width: 12%
+}
+
+
+/* Pricing; */
+
+#pricing{
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.card {
+height: 100%;
+}
+
+.pricard{
+  padding: 5% 3%;
+}
+
+
+/* Call to action */
+
+
+
+#cta{
+  padding: 5% 10%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.ctah3{
+color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+
+}
+
+
+/* footer */
+
+#footer{
+  padding: 5% 10%;
+  text-align: center;
+}
+
+
+
+.footico{
+  color: #000;
+  margin: 20px 15px;
+}
